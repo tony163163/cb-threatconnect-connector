@@ -5,6 +5,7 @@ flask==0.12.4
 cbapi==1.7.1
 pyinstaller==4.2
 simplejson
-PyYAML==5.1.2
+PyYAML==5.2
 setuptools<45.0.0
 jinja2
+urllib3>=1.25.9 # not directly required, pinned by Snyk to avoid a vulnerability
