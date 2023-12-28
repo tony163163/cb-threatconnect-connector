@@ -8,3 +8,6 @@ simplejson
 PyYAML==5.1.2
 setuptools<45.0.0
 jinja2
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.15.0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
