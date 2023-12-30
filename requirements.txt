@@ -3,8 +3,9 @@ git+https://github.com/carbonblack/cb-integration.git@0.9.X-maintenance
 requests==2.21.0
 flask==0.12.4
 cbapi==1.7.1
-pyinstaller==4.2
+pyinstaller==5.13.1
 simplejson
 PyYAML==5.1.2
-setuptools<45.0.0
+setuptools<65.5.1
 jinja2
+validators>=0.21.0 # not directly required, pinned by Snyk to avoid a vulnerability
