@@ -6,5 +6,5 @@ cbapi==1.7.1
 pyinstaller==4.2
 simplejson
 PyYAML==5.1.2
-setuptools<45.0.0
+setuptools<65.5.1
 jinja2
